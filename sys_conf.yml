@@ -1,0 +1,19 @@
+sound_device:
+  input: 0 # your input device / vb out
+  output: 1 #your output device/ vb in
+  interim_check: True
+delay_th: 120
+mirror: 2
+company_name: 'Ali Test'
+os: 'linux'
+version: '1.0.0.L_A'
+dated: '24/09/2024 @ 5:34 PM'
+running_mode : 'TRY' # if you have to run try.py make it "TRY" else "PRO"
+auto_unpause: True # its value should be True or False to make auto pause/unpause ; Pleae check the spelling and case; it should be exactly that I specified
+chrome_driver: ''
+no_response_time: 3.0
+pause_duration: 0.5
+block_size: 4000
+age:
+  low: 40
+  high: 81
