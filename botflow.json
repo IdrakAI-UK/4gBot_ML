@@ -18,7 +18,7 @@
             "next_state": "disp_DNC "
         },
         "NotSpoke ": {
-            "fileName": "are_you_there.wav",
+            "fileName": "hello.wav",
             "next_state": "S_HELLO"
         },
         "None ": {
@@ -39,7 +39,6 @@
         "fileName": "pitch",
         "reb_state": false,
         "qq_state": false,
-
         "answering_machine ": {
             "fileName": "",
             "next_state": "disp_A "
@@ -116,6 +115,10 @@
         "info_concern":{
             "fileName": "",
             "next_state": "S_Info"
+        },
+        "None":{
+            "fileName":"",
+            "next_state": "S_TRANSFER"
         }
         
     },
